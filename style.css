@@ -1,0 +1,792 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.first-disc{
+    text-align: center;
+    background-image: url("image/first-bg.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 795px;
+}
+.first-bg img{
+    width: 100%;
+}
+.discount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 795px;
+}
+.discount h1{
+    font-size: 107.96px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.discount p{
+    font-size: 29.72px;
+    color: white;
+    text-transform: uppercase;
+}
+.order-btn button{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 40px;
+    background-color: #f6d365;
+    border: none;
+    text-transform: uppercase;
+}
+
+.nav{
+    position: absolute;
+    top: 1%;
+    width: 100%;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.menu-list{
+    display: flex;
+}
+.navbar-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu-list li a{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+.menu-list li a:hover{
+    color: #f6d365;
+    text-decoration: none;
+    transition: 0.8s;
+}
+.icon{
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    display: none;
+}
+.icon.close-btn{
+    position: absolute;
+    top:14px;
+    right: 6%;
+    z-index: 5;
+}
+.search-icon p{
+    font-size: 25px;
+    color: white;
+}
+
+.popular-section{
+    background-image: url("image/vector.png");
+    background-size: 100% 100%;
+    background-repeat: repeat;
+    min-height: 795px;
+    text-align: center;
+}
+.popular-content{
+    padding-top: 8%;
+    padding-bottom: 5%;
+}
+.popular-content h1{
+    font-size: 63.66px;
+    font-weight: bold;
+    color: #4d483a;
+    text-transform: uppercase;
+}
+.popular-content p{
+    font-size: 25.23px;
+    color: #4d483a;
+    text-transform: uppercase;
+}
+.package img{
+    width: 100%;
+}
+.package h3{
+    font-size: 31.85px;
+    font-weight: bold;
+    color: #4d483a;
+    text-transform: uppercase;
+}
+.package p{
+    font-size: 19.11px;
+    color: #4d483a;
+    text-transform: uppercase;
+}
+
+.chiken-wings{
+    background-image: url("image/vector2.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 795px;
+}
+.chiken-content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 795px;
+}
+.chiken-content h1{
+    font-size: 58.33px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.chiken-content p{
+    font-size: 29.72px;
+    color: white;
+    text-transform: uppercase;
+}
+    .chiken-img{
+        padding-top: 20%;
+    }
+
+    .our{
+        background-image: url("image/vecto3.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        min-height: 795px;
+        text-align: center;
+        padding-top: 8%;
+    }
+    .our-content{
+        padding-bottom: 5%;
+    }
+    .our-content h1{
+        font-size: 62.26px;
+        font-weight: bold;
+        color: #4d483a;
+        text-transform: uppercase;
+    }
+    .our-content p{
+        font-size: 24.68px;
+        color: #4d483a;
+        text-transform: uppercase;
+    }
+    .customer{
+        border: 5px solid #4d483a;
+        padding: 40px;
+    }
+    .customer h1{
+        font-size: 75px;
+        font-weight: bold;
+        color: #4d483a;
+        text-transform: uppercase;
+    }
+    .customer p{
+        font-size: 33.33px;
+        color: #4d483a;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .satay{
+        background-image: url("image/vector4.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        min-height: 795px;
+    }
+    .satay-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 795px;
+    }
+    .satay-content h1{
+        font-size: 58.33px;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+    }
+    .satay-content p{
+        font-size: 29.72px;
+        color: white;
+        text-transform: uppercase;
+    }
+    .stay-img{
+        padding-top: 20%;
+    }
+
+    .harris{
+        background-image: url("image/vector5.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        min-height: 795px;
+        text-align: center;
+    }
+    .harris-content p{
+        font-size: 37.5px;
+        color: #4d483a;
+        text-transform: uppercase;
+    }
+    .harris-content h1{
+        font-size: 44.9px;
+        font-weight: bold;
+        color: #4d483a;
+        text-transform: uppercase;
+    }
+    .full-harri{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 795px;
+    }
+
+    .update{
+        background-image: url("image/update.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        min-height: 795px;
+        text-align: center;
+    }
+    .update-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 795px;
+    }
+    .update-content h1{
+        font-size: 60.9px;
+        font-weight: bold;
+        color: #4d483a;
+        text-transform: uppercase;
+        padding-bottom: 5%;
+    }
+    .update-content p{
+        font-size: 29.72px;
+        color: #4d483a;
+        text-transform: uppercase;
+        padding-bottom: 5%;
+    }
+    .update-input input{
+        width: 60%;
+        text-transform: uppercase;
+        padding: 10px;
+        border: none;
+        font-weight: bold;
+    }
+    .update-input button{
+        padding: 5px 25px;
+        border: none;
+        font-size: 25px;
+        font-weight: bold;
+        background-color: #4d483a;
+        color: white;
+        text-transform: uppercase;
+    }
+    .update-input{
+        display: flex;
+        justify-content: center;
+    }
+
+    .footer{
+        background-image: url("image/vector-6.png");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        min-height: 795px;
+    }
+    .title-content1 h1{
+        font-size: 31.47px;
+        font-weight: bold;
+        color: white;
+        text-transform: uppercase;
+        padding-bottom: 10%;
+    }
+    .title p{
+        font-size: 15px;
+        color: white;
+    }
+    .social ul{
+        display: flex;
+        padding-top: 10%;
+    }
+    .social ul li a{
+        font-size: 25px;
+        border: 1px solid white;
+        border-radius: 50%;
+        padding: 8px;
+        margin: 5px;
+        background-color: white;
+        color: #4d483a;
+    }
+    .history ul li a{
+        font-size: 23.6px;
+        text-transform: uppercase;
+    }
+    .history ul li a:hover{
+        color: #f6d365;
+        text-decoration: none;
+        transition: 0.8s;
+    }
+    .title{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 795px;
+    }
+
+    @media(max-width:992px){
+        .icon, .icon.show{
+            display: block;
+        }
+        .icon.hide{
+            display: none;
+        }
+        .navbar .menu-list.active{
+            left:0;
+        }
+        .navbar .menu-list{
+            position: fixed;
+            background: #f6d365;
+            top:8%;
+            left:-100%;
+            width:100%;
+            height:100vh;
+            max-width: 400px;
+            display: block;
+            padding: 50px 0;
+            text-align: center;
+            transition: all 0.3s ease;
+            z-index: 5;
+        }
+        .menu-list li a:hover{
+            color:#4d483a;
+        }
+        .menu-list li a{
+            font-size: 42px;
+        }
+        .search-icon{
+            display: none;
+        }
+        .icon{
+            font-size: 45px;
+        }
+        .harris-content p{
+            font-size: 33.5px;
+        }
+        .update-content p{
+            font-size: 26.72px;
+        }
+    }
+    @media(max-width:912px){
+        .discount h1{
+            font-size: 90.96px;
+        }
+        .discount p {
+            font-size: 24.72px;
+        }
+        .popular-content p {
+            font-size: 23.23px;
+        }
+        .chiken-wings{
+            text-align: center;
+        }
+        .chiken-img img{
+            width: 100%;
+        }
+        .chiken-content p {
+            font-size: 23.72px;
+        }
+        .chiken-content{
+            height: auto;
+            padding: 30px 0;
+        }
+        .our-content p {
+            font-size: 22.68px;
+        }
+        .customer {
+            margin: 20px 0;
+        }
+        .satay{
+            text-align: center;
+        }
+        .satay-content{
+            height: auto;
+            padding: 30px 0;
+        }
+        .satay-content p {
+            font-size: 25.72px;
+        }
+        .stay-img img{
+            width: 100%;
+            padding: 30px 0;
+        }
+        .update-content h1 {
+            font-size: 53.9px;
+        }
+        .update-content p {
+            font-size: 19.72px;
+        }
+        .title{
+            height: auto;
+            padding: 10px 0;
+        }
+        .title-content1 h1{
+            padding-bottom: 0;
+        }
+        .social ul {
+            display: flex;
+            padding-top: 5%;
+        }
+        .footer{
+            text-align: center;
+        }
+        .social ul{
+            justify-content: center;
+        }
+    }
+    @media(max-width:800px){
+        .discount h1{
+            font-size: 90.96px;
+        }
+        .discount p{
+            font-size: 24.72px;
+        }
+        .popular-content p{
+            font-size: 23.23px;
+        }
+        .package h3{
+            font-size: 67.85px;
+        }
+        .package p{
+            font-size: 33.11px;
+        }
+        .chiken-img img{
+            width: 100%;
+        }
+        .chiken-wings{
+            text-align: center;
+        }
+        .chiken-content p{
+            font-size: 33.72px;
+        }
+        .our-content p{
+            font-size: 22.68px;
+        }
+        .customer{
+            margin-bottom: 10px;
+        }
+        .satay{
+            text-align: center;
+        }
+        .satay-content h1{
+            font-size: 72.33px;
+        }
+        .satay-content p{
+            font-size: 40.72px;
+        }
+        .stay-img img{
+            width: 100%;
+            padding-bottom: 20%;
+        }
+        .update-content h1{
+            font-size: 54.9px;
+        }
+        .title{
+            height: auto;
+        }
+        .title-content1 h1{
+            padding-bottom: 2%;
+            font-size: 55.47px;
+        }
+        .footer {
+            text-align: center;
+        }
+        .social ul{
+            justify-content: center;
+        }
+        .social ul{
+            padding-top: 2%;
+        }
+        .title p {
+            font-size: 22px;
+        }
+        .history ul li a{
+            font-size: 33.6px;
+        }
+    }
+    @media(max-width:600px){
+        .discount h1 {
+            font-size: 68.96px;
+        }
+        .popular-content p {
+            font-size: 17.23px;
+        }
+        .our-content p {
+            font-size: 16.68px;
+        }
+        .satay-content h1 {
+            font-size: 67.33px;
+        }
+        .satay-content p {
+            font-size: 33.72px;
+        }
+        .harris-content p {
+            font-size: 18.5px;
+        }
+        .update-content h1 {
+            font-size: 40.9px;
+        }
+        .update-content p {
+            font-size: 20.72px;
+        }
+        .title p {
+            font-size: 20px;
+        }
+    }
+    @media(max-width:480px){
+        .discount h1 {
+            font-size: 58.96px;
+        }
+        .discount p {
+            font-size: 15.72px;
+        }
+        .order-btn button{
+            font-size: 19px;
+        }
+        .popular-content h1{
+            font-size: 50.66px;
+        }
+        .popular-content p {
+            font-size: 15.23px;
+        }
+        .package h3 {
+            font-size: 53.85px;
+        }
+        .package p {
+            font-size: 28.11px;
+        }   
+        .chiken-content h1{
+            font-size: 54.33px;
+        }
+        .chiken-content p {
+            font-size: 24.72px;
+        }
+        .our-content h1{
+            font-size: 55.26px;
+        }
+        .our-content p {
+            font-size: 14.68px;
+        }
+        .satay-content h1 {
+            font-size: 55.33px;
+        }
+        .satay-content p {
+            font-size: 25.72px;
+        }
+        .harris-content p {
+            font-size: 15.5px;
+        }
+        .harris-content h1{
+            font-size: 39.9px;
+        }
+        .update-content h1 {
+            font-size: 34.9px;
+        }
+        .update-content p {
+            font-size: 12.72px;
+        }
+    }
+    @media(max-width:480px){
+        .discount h1 {
+            font-size: 50.96px;
+        }
+        .discount p {
+            font-size: 13.72px;
+        }
+        .popular-content h1 {
+            font-size: 46.66px;
+        }
+        .popular-content p {
+            font-size: 13.23px;
+        }
+        .package h3 {
+            font-size: 46.85px;
+        }
+        .package p {
+            font-size: 25.11px;
+        }
+        .chiken-content h1 {
+            font-size: 45.33px;
+        }
+        .chiken-content p {
+            font-size: 20.72px;
+        }
+        .our-content h1 {
+            font-size: 46.26px;
+        }
+        .our-content p {
+            font-size: 12.68px;
+        }
+        .satay-content h1 {
+            font-size: 49.33px;
+        }
+        .chiken-content{
+            height: auto;
+            padding: 5% 0;
+        }
+        .satay-content{
+            height: auto;
+            padding: 10% 0;
+        }
+        .harris-content p {
+            font-size: 13.5px;
+        }
+        .update-content h1 {
+            font-size: 29.9px;
+        }
+        .update-content p {
+            font-size: 10.72px;
+        }
+        .update-input{
+            flex-direction: column;
+        }
+        .update-input input{
+            width: 100%;
+            margin-bottom: 5%;
+        }
+        .title-content1 h1 {
+            font-size: 40.47px;
+        }
+        .title p {
+            font-size: 15px;
+        }
+        .history ul li a {
+            font-size: 25.6px;
+        }
+        .update-content{
+            height: auto;
+        }
+        .update{
+            min-height: auto;
+            padding: 50px 10px;
+        }
+    }
+    @media(max-width:375px){
+        .logo img{
+            width: 60%;
+        }
+        .icon {
+            font-size: 35px;
+        }
+        .discount h1 {
+            font-size: 43.96px;
+        }
+        .discount p {
+            font-size: 11.72px;
+        }
+        .popular-content h1 {
+            font-size: 40.66px;
+        }
+        .popular-content p {
+            font-size: 11.23px;
+        }
+        .package h3 {
+            font-size: 35.85px;
+        }
+        .package p {
+            font-size: 20.11px;
+        }
+        .chiken-content h1 {
+            font-size: 42.33px;
+        }
+        .chiken-content p {
+            font-size: 12.72px;
+        }
+        .our-content h1 {
+            font-size: 41.26px;
+        }
+        .our-content p {
+            font-size: 11.68px;
+        }
+        .satay-content h1 {
+            font-size: 43.33px;
+        }
+        .satay-content p {
+            font-size: 12.72px;
+        }
+        .harris-content p {
+            font-size: 11.5px;
+        }
+        .update-content h1 {
+            font-size: 26.9px;
+        }
+        .update-content p {
+            font-size: 9.72px;
+        }
+        .navbar .menu-list{
+            top: 6%;
+            width: 65%;
+        }
+    }
+    @media(max-width:320px){
+        .discount h1 {
+            font-size: 38.96px;
+        }
+        .discount p {
+            font-size: 10.72px;
+        }
+        .order-btn button {
+            font-size: 16px;
+        }
+        .popular-content h1 {
+            font-size: 35.66px;
+        }
+        .popular-content p {
+            font-size: 9.23px;
+        }
+        .package p {
+            font-size: 19.11px;
+        }
+        .chiken-content h1 {
+            font-size: 35.33px;
+        }
+        .chiken-content p {
+            font-size: 10.72px;
+        }   
+        .our-content h1 {
+            font-size: 36.26px;
+        }
+        .our-content p {
+            font-size: 9.68px;
+        }
+        .satay-content h1 {
+            font-size: 38.33px;
+        }
+        .satay-content p {
+            font-size: 10.72px;
+        }
+        .harris-content p {
+            font-size: 9.5px;
+        }
+        .harris-content h1 {
+            font-size: 38.9px;
+        }
+        .update-content h1 {
+            font-size: 21.9px;
+        }
+        .update-content p {
+            font-size: 7.72px;
+        }
+        .title-content1 h1 {
+            font-size: 30.47px;
+        }
+        .social ul li a{
+            font-size: 18px;
+        }
+        .title p {
+            font-size: 11px;
+        }
+        .history ul li a {
+            font-size: 21.6px;
+        }
+    }
